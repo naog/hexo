@@ -1,0 +1,13 @@
+<div class="menu button">
+    <% if (site.categories.length){ %>
+        <% site.categories.sort('name').each(function(item){ %>
+            <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"><%= item.name %><span class="sup"><%= item.posts.length %></span></a>
+        <% }); %>
+    <% } %>
+</div>
+<ul class="item">
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/article', {item: item, index: true}) %>
+    <% }); %>
+</ul>
+<%- partial('_partial/pagination') %>

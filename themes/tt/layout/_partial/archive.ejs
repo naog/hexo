@@ -1,0 +1,17 @@
+<% var title = '';
+    if (page.category) title ='目录: ' + page.category;
+    if (page.tag) title = '标记: ' + page.tag;
+    if (page.archive){
+      if (page.year) title = '文章存档: ' + page.year + (page.month ? '年' + page.month : '') + '月' ;
+      else title = '文章存档';
+}%>
+    <div class="menu"><%= title %></div>
+    <% if (page.archive){ %>
+    <div class="archive button"><%- list_archives({format:'YYYY年MM月',style:'none',separator:''}) %></div>
+    <% } %>
+    <ul class="item">
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/article', {item: item, index: true}) %>
+    <% }); %>
+    </ul>
+<%- partial('_partial/pagination') %>

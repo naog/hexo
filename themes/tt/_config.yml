@@ -1,0 +1,10 @@
+menu:
+	首页: /
+	标记: /mark/
+	关于: /about/
+
+comment:
+  duoshuo: true
+  duoshuo_short_name: mugbya
+
+fancybox: true

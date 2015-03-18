@@ -1,0 +1,89 @@
+*{margin:0;padding:0}
+body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all;background:#E1E1E1 url("http://dn-xair.qbox.me/img/background.png") repeat}
+#world{width:600px;margin:50px auto 20px;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
+.drop-shadow {position:relative}
+.drop-shadow:before,.drop-shadow:after{content:"";position:absolute;z-index:-1;bottom:15px;left:10px;width:50%;height:20%;-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);box-shadow:0 15px 15px rgba(0, 0, 0, 0.7);-webkit-transform:rotate(-2deg);-moz-transform:rotate(-2deg);-o-transform:rotate(-2deg);transform:rotate(-2deg)}
+.drop-shadow:after{right:10px;left:auto;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg)}
+/*--------------------------------*/
+    a,a:hover,.post .button a,.post .button a:hover{text-decoration:none}
+    .post a,.post a:hover,#foot a:hover{text-decoration:underline}
+    /*--------------------------------*/
+    a,.meta a:hover/*,H2 a:hover*/,#backtop a:hover{color:#678087}
+    #topbar a,.nav,.nav a,.date,#foot,#foot a,#backtop a{color:#999}
+    a:hover,H2 a,.button a:hover{color:#3d5256}
+    .menu,.button a,center{color:#778087}
+    .button a,.nav a:hover{background:#DEDEDE}
+    .menu,.nav a{background:#EEE}
+    .item li:hover,H1,H3{background:#f9f9f9}
+    /*--------------------------------*/
+    #topbar a,.button a{display:inline-block;line-height:1}
+    #topbar a,.button a,.nav a{border-radius:3px;padding:5px}
+    .menu,H1,H3,.item li,.archive/* ,.date */{border-bottom:1px solid #CCC}
+    H3,.markpage{border-top:1px solid #CCC}
+    #topbar,.item li,.nav,#foot{line-height:50px}
+    #topbar,.menu,.item li,.post,H1,H3,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
+    .sup,.arrow,.archive-count{font-weight:bold}
+    H1,H2,H3,.post p strong{font-weight:normal}
+    H2,H3,.home a,.post p,.post ul, .post ol{font-size:14px}
+    H1,.nav,.date,.error,#foot{text-align:center}
+    H1,H3{line-height:42px}
+    H3,.post p,center{margin-top:20px}
+/*--------------------------------*/
+#topbar{background:#222;color:#DDD;border-radius:3px 3px 0 0;position:relative}
+#topbar a:hover{background:#333;color:#CCC}
+    .home a,.topr a{letter-spacing:3px}
+    .topr{position:absolute;right:10px;top:0;text-align:right}
+    .topr a{margin-left:3px}
+/*--------------------------------*/
+#content{background:#FFF;border-left:1px solid #BBB;border-right:1px solid #BBB}
+    .menu{padding:10px}
+    .button a:hover{background:#CECECE}
+    .sup,.archive-count{margin:0 3px;color:#BCBCBC;font-size:11px}
+    .arrow{color:#000;font-family:'Lucida Grande',Tahoma}
+    /*--------------------------------*/
+    .item li/* ,.date */{list-style-type:none}
+    .meta{float:right} 
+    .meta,.meta a{color:#BBB}
+    /*--------------------------------*/
+    H1{font-size:18px}
+    H3{margin:20px -10px 0}
+    center img{max-width:580px}
+    .post{font-family:Georgia,Arial}
+    .post p{line-height:24px}
+    .post p em{font-style:normal;background:#98FB98}
+    .post p strong{font-style:normal;background:#FF0}
+    .post blockquote{margin:20px -10px 0;background:#DDD}
+    .post blockquote p{margin:0;padding:10px 0}
+    .post ul, .post ol{margin:20px -10px 0;list-style: square inside url('/arrow.gif')}
+    .post ul li, .post ol li{margin-top:10px}
+    .date{padding:20px 0}
+    /*--------------------------------*/
+    .nav{position:relative;height:50px}
+    .nav span.prev{position:absolute;left:10px}
+    .nav span.next{position:absolute;right:10px}
+    /*--------------------------------*/
+    .mark{padding:10px 0 5px}
+    .mark a{margin:0 2px 5px 0}
+    .archive{padding:10px 10px 5px}
+    .archive a{margin:0 5px 5px 0}
+    .error{padding:80px 0}
+/*--------------------------------*/
+#foot{background:#E2E2E2;border:1px solid #BBB;border-radius:0 0 3px 3px}
+#backtop{position:fixed;left:50%;bottom:20px;margin-left:310px}
+#backtop a{display:block}
+table{border-spacing:0;width:100%}
+/*--------------------------------*/
+    pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'\65B9\6B63\5170\4EAD\8D85\7EC6\9ED1\7B80\4F53','Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
+    pre{overflow:auto;padding:10px;margin:20px -10px 0;word-wrap:normal}
+    code{padding:0;margin:0}
+    p code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #CCC;border-radius:3px;background:#F5F5F5;font-size:13px}
+    /*--------------------------------*/
+    pre .comment{color:#969896}
+    pre .css .hexcolor{color:#8abeb7}
+    pre .xml .css,pre .xml .cdata{opacity:0.5}
+    pre .keyword,pre .javascript .function{color:#b294bb}
+    pre .class .title,pre .rules .attribute{color:#f0c674}
+    pre .string,pre .value,pre .inheritance,pre .header,pre .symbol,pre .cdata{color:#b5bd68}
+    pre .number,pre .preprocessor,pre .pragma,pre .built_in,pre .literal,pre .params,pre .constant{color:#de935f}
+    pre .title,pre .variable,pre .attribute,pre .tag,pre .regexp,pre .ruby .constant,pre .tag .title,pre .pi,pre .doctype,pre .id,pre .class,pre .pseudo{color:#c66}
+    pre .coffeescript .javascript,pre .javascript .xml,pre .tex .formula,pre .xml .javascript,pre .xml .vbscript,pre .function,pre .function .title,pre .decorator,pre .python .title,pre .title .keyword,pre .perl .sub,pre .javascript .title,pre .coffeescript .title{color:#81a2be}

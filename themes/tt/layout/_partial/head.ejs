@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <% var title = page.title;
+    if (is_category()){ title = '目录: ' + page.category; }  
+    else if (is_tag()){ title = '标记: ' + page.tag; }
+    else if (is_archive()){ title = '文章存档';
+        if (is_month()){ title += ': ' + page.year + '年' + page.month + '月'; } 
+        else if (is_year()){ title += ': ' + page.year; } } 
+    %><title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" media="screen" type="text/css">
+</head>

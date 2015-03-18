@@ -1,0 +1,24 @@
+<% if (item.photos && item.photos.length){ %>
+    <%- partial('post/gallery') %>
+<% } %>
+<% if (index) { %>
+    <li>
+        <span class="meta">
+            <% if (page.archive) { %><%= item.date.format("YYYY/MM/DD") %>
+            <% } else { %><%- partial('post/tag') %><% } %>
+        </span>
+        <%-  partial('post/title') %>
+    </li>
+<% } else { %>
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        <%- partial('post/category') %>
+        <%- partial('post/tag') %>
+    </div>
+    <%-  partial('post/title') %>
+    <div class="post">
+        <%- item.content %>
+    </div>
+    <div class="date"><%= item.date.format(config.date_format) %></div>
+<% } %>

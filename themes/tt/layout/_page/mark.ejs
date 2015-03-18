@@ -1,0 +1,21 @@
+<div class="menu">本站所有的文章目录</div>
+<% if (site.categories.length){ %>
+<div class="post">
+<div class="mark button">
+    <% site.categories.sort('name').each(function(item){ %>
+        <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"><%= item.name %><span class="sup"><%= item.posts.length %></span></a>
+    <% }); %>
+</div>
+</div>
+<% } %>
+    
+<div class="menu markpage">本站所有标注的关键词</div>
+<% if (site.tags.length){ %>
+<div class="post">
+<div class="mark button">
+    <% site.tags.sort('name').each(function(item){ %>
+        <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"><%= item.name %><span class="sup"><%= item.posts.length %></span></a>
+    <% }); %>
+</div>
+</div>
+<% } %>

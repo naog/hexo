@@ -1,0 +1,7 @@
+<% if (page.total > 1){ %>
+<div class="nav">
+    <% if (page.prev){ %><span class="prev"><a href="<%- config.root %><%- page.prev_link %>">上一页</a></span><% } %>
+    <%- page.current %> / <%- page.total %>
+    <% if (page.next){ %><span class="next"><a href="<%- config.root %><%- page.next_link %>">下一页</a></span><% } %>
+</div>
+<% } %>
