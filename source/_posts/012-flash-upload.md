@@ -1,6 +1,6 @@
 title: 禁止视频网站使用Flash上传
 date: 2015-03-08
-categories: 善用佳软
+categories: 电脑技巧
 tags: Flash
 permalink: 12
 ---

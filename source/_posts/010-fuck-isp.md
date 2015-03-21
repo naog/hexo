@@ -1,6 +1,6 @@
 title: 摆脱宽带运营商的劫持
 date: 2015-01-29
-categories: 善用佳软
+categories: 电脑技巧
 tags: 劫持
 permalink: 10
 ---

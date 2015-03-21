@@ -23,6 +23,7 @@ permalink: 11
 - [百度音乐盒去广告](https://greasyfork.org/zh-CN/scripts/2248-%E7%99%BE%E5%BA%A6%E9%9F%B3%E4%B9%90%E7%9B%92%E5%8E%BB%E5%B9%BF%E5%91%8A)
 - [解除贴吧必需登录才能浏览的限制](https://greasyfork.org/zh-CN/scripts/5999-%E8%A7%A3%E9%99%A4%E8%B4%B4%E5%90%A7%E5%BF%85%E9%9C%80%E7%99%BB%E5%BD%95%E6%89%8D%E8%83%BD%E6%B5%8F%E8%A7%88%E7%9A%84%E9%99%90%E5%88%B6)
 - [虾米音乐助手](https://greasyfork.org/zh-CN/scripts/987-%E8%99%BE%E7%B1%B3%E9%9F%B3%E4%B9%90%E5%8A%A9%E6%89%8B)
+- [Bypass Wait, Code & Login on Websites](https://greasyfork.org/zh-CN/scripts/2600-%E8%B7%B3%E8%BF%87%E7%BD%91%E7%AB%99%E7%AD%89%E5%BE%85-%E9%AA%8C%E8%AF%81%E7%A0%81%E5%8F%8A%E7%99%BB%E5%BD%95)
 
 ### Chrome扩展
 - [Enable Copy](https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio?utm_source=chrome-app-launcher-info-dialog) 解除右键限制

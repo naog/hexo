@@ -1,6 +1,6 @@
 title: 自主控制自启动软件们
 date: 2014-11-28
-categories: 善用佳软
+categories: 电脑技巧
 tags: AHK
 permalink: 5
 ---

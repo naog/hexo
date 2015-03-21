@@ -46,7 +46,8 @@ highlight: #代码高亮
 default_category: uncategorized
 category_map:
 	代码笔记: code
-	善用佳软: skill
+	电脑技巧: skill
+	善用佳软: software
 tag_map:
 
 # Date / Time format #日期显示格式

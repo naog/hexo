@@ -1,6 +1,6 @@
 title: 自定义Win7&8任务栏图标尺寸 顺带减少窗口边框
 date: 2014-11-28
-categories: 善用佳软
+categories: 电脑技巧
 tags: 注册表
 permalink: 4
 ---
